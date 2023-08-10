@@ -1,0 +1,407 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#final {
+    z-index: 800;
+    margin-top: 50%;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-family: 'Arial';
+    padding-left: 12rem;
+    padding-top: 3rem;
+}
+
+#background-peril {
+    background-image: url(./img/background.jpg);
+    z-index: 2;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    margin-top: 0px;
+    border: 2px solid black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 17rem;
+    left: 34rem;
+    gap: 1px;
+}
+
+nav a {
+    font-family: Arial;
+    color: #fff;
+    text-decoration: none;
+    gap: 3px;
+}
+
+#foto-perfil {
+    background-image: url(./img/ava2.jpg);
+    z-index: 1;
+    background-size: cover;
+    height:100px;
+    width:80px;
+    margin-top: -7rem;
+    margin-left: 11rem;
+    margin-right: auto;            
+    padding: 40px 60px;
+    border-radius: 20px;
+    border: solid rgb(67, 212, 212);   
+    text-align:left;
+    animation: RGB 3s linear infinite;
+}
+
+@keyframes RGB {
+    0% {
+        border-color: rgb(235, 14, 14); /* Vermelho */
+    }
+    25% {
+        border-color: rgb(0, 255, 0); /* Verde */
+    }
+    50% {
+        border-color: rgb(67, 212, 212);
+    }
+    75% {
+        border-color: rgb(0, 0, 255); /* Azul */
+    }
+    100% {
+        border-color: rgb(216, 143, 7);
+    }
+}
+
+.myname {
+    color: #f0f0f0;
+    font-family: 'Arial';
+    margin-top: 1rem;
+    margin-left: 12rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#identify {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-family: 'Courier New';
+}
+
+.identify-icons {
+    margin-top: -1rem;
+}
+
+.perfil-resume1 {
+    text-align:left;
+    font-family: 'Separate';
+    margin-left: 10rem;
+    margin-top: 2rem;
+    border-left: 5px solid rgb(233, 14, 14);
+}
+
+        /* transformando os 4 a em buttons */
+#btnToggle {
+    display: block;
+    width: 12rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #686464bd;
+    padding: 20px;
+    border-radius: 2px;
+    transition: 0,9s;
+}
+
+#btnToggle2{
+    display: block;
+    width: 12rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #686464bd;
+    padding: 20px;
+    border-radius: 2px;
+    transition: 0,9s;
+}
+
+#btnToggle3 {
+    display: block;
+    width: 12rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #686464bd;
+    padding: 20px;
+    border-radius: 2px;
+    transition: 0,9s;
+}
+
+#btnToggle4 {
+    display: block;
+    width: 12rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #686464bd;
+    padding: 20px;
+    border-radius: 2px;
+    transition: 0,9s;
+}
+
+#btnToggle:hover {
+    background-color: rgba(40, 179, 40, 0.603);
+}
+
+#btnToggle2:hover {
+    background-color: rgba(40, 179, 40, 0.603);
+}
+
+#btnToggle3:hover {
+    background-color: rgba(40, 179, 40, 0.603);
+}
+
+#btnToggle4:hover {
+    background-color: rgba(40, 179, 40, 0.603);
+}
+
+            /* Fim dos buttons */
+
+         /* Esconde/Exibir janelas */
+         /* EXPERIÊNCIAS */
+#minhaDiv {
+    z-index: 20;           
+    position: absolute;
+    width: 890px;
+    height: 980px;
+    transform: translate(34rem, -385px);
+    background-color: #e6e2e2;
+    padding: 20px;
+}
+
+.objetivo {
+    z-index: 7;
+    border-left: 4px solid aqua;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    font-family: 'Bodoni';
+}
+.objetivo-img {
+    background-image: url(./img/objetivo.png);
+    background-size: cover;
+    height: 20rem;
+    width: 50rem;
+    margin-left: 3rem;
+    border-radius: 3px;
+    border: 3px solid aqua;
+}
+
+.farma {
+    border-left: 4px solid rgb(255, 166, 0);
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-family: 'Bodoni';
+}
+
+.farma-img {
+    background-image: url(./img/Farmaconde.png);
+    background-size: cover;
+    height: 20rem;
+    width: 50rem;
+    margin-left: 3rem;
+    border-radius: 3px;
+    border: 3px solid rgb(255, 166, 0);
+}
+              /* HABILIDADES */
+#minhaDiv2 {
+    z-index: 20;           
+    position: absolute;
+    width: 890px;
+    height: 800px;
+    transform: translate(34rem, -385px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.skills-resume {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#skills-squad {
+    z-index: 29;
+    background-color: antiquewhite;
+    border: solid #cfcbcb;
+    height: 500px;
+}
+
+#skills-grapichs1 {
+    z-index: 30;
+    box-sizing: 0px;
+    margin-left: 1rem;
+    margin-top: 7rem;
+    background-image: url(./img/skills\ languages.png);
+    background-size: cover;
+    height: 179px;
+    width: 422px;
+    border-radius: 3px;
+    border: 2px solid #cacaca;
+}
+
+#skills-grapichs2 {
+    z-index: 30;
+    margin-top: -15rem;
+    margin-left: 28rem;
+    background-image: url(./img/skills\ progress.png);
+    background-size: cover;
+    height: 363px;
+    width: 410px;
+    border-radius: 3px;
+    border: 2px solid #b9b7b7;
+}
+
+#skills-icons {
+    background-color: #292727;
+    border: solid 2px #b9b7b7;
+    border-radius: 2px;
+    margin-left: 3rem;
+    padding: 3px;
+    height: 30px;
+    width: 25%;
+}
+                 /* EDUCAÇÃO */
+#minhaDiv3 {
+    z-index: 20;           
+    position: absolute;
+    width: 890px;
+    height: 800px;
+    transform: translate(34rem, -385px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: scroll 
+}
+
+#education1-resume {
+    font-family: Arial;
+    margin-left: 3rem;
+}
+
+#education2-resume {
+    font-family: Arial;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+h3 {
+    font-family: 'Bodoni';
+    color: yellow;
+    text-shadow: 
+    -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0); 
+}
+
+.education1-img {
+    background-image: url(./img/education1-image.jpg);
+    background-size: cover;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    height: 560px;
+    width: 700px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.education2-img {
+    background-image: url(./img/education2-img.JPG);
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    height: 380px;
+    width: 700px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+                /* CERTIFICAÇÕES */
+#minhaDiv4 {
+    z-index: 20;           
+    position: absolute;
+    width: 890px;
+    height: 800px;
+    transform: translate(34rem, -385px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: scroll 
+}
+
+#cert3-resume {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.cert3 {
+    background-image: url(./img/cert3.png);
+    background-size: cover;
+    margin: 3rem;
+    margin-left: 7rem;
+    height: 700px;
+    width: 650px;
+}
+
+#cert2-resume {
+    padding-left: 3rem;
+}
+
+.cert2 {
+    background-image: url(./img/cert2.png);
+    background-size: cover;
+    margin-top: 1rem;
+    margin: 3rem;
+    margin-left: 7rem;
+    height: 454px;
+    width: 610px;
+}
+
+#cert1-resume {
+    padding-left: 3rem;
+}
+
+.cert1 {
+    background-image: url(./img/cert1.png);
+    background-size: cover;
+    margin-top: 1rem;
+    margin: 3rem;
+    margin-left: 7rem;
+    height: 504px;
+    width: 700px;
+}
+
+         /* Final da pagina footer */
+footer{
+    background-color:black ;
+    color: #fff;
+    border-top: 3px solid #3b3939da;
+    text-align: center;
+    padding: 80px;
+    margin-top: 60rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} 
