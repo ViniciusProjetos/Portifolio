@@ -22,7 +22,7 @@ h2 {
     z-index: 2;
     background-size: cover;
     height: 180px;
-    width: 100%;
+    width: 89,7%;
     margin-top: 0px;
     border: 2px solid black;
 }
@@ -185,7 +185,7 @@ nav a {
     z-index: 20;           
     position: absolute;
     width: 890px;
-    height: 980px;
+    height: 1050px;
     transform: translate(34rem, -385px);
     background-color: #e6e2e2;
     padding: 20px;
@@ -201,8 +201,8 @@ nav a {
 .objetivo-img {
     background-image: url(./img/objetivo.png);
     background-size: cover;
-    height: 20rem;
-    width: 50rem;
+    height: 400px;
+    width: 650px;
     margin-left: 3rem;
     border-radius: 3px;
     border: 3px solid aqua;
@@ -231,7 +231,7 @@ nav a {
     width: 890px;
     height: 800px;
     transform: translate(34rem, -385px);
-    background-color: #f0f0f0;
+    background-color: #e6e2e2;
     padding: 20px;
     overflow-y: scroll;
 }
@@ -283,6 +283,69 @@ nav a {
     height: 30px;
     width: 25%;
 }
+
+#skills-resume2 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.windows-img {
+    background-image: url(./img/windows-img.png);
+    background-size: cover;
+    height: 150px;
+    width: 240px;
+    border-radius: 3px;
+}
+.skill-icon1 {
+    background-image: url(./img/skill-icon1.png);
+    height: 45px;
+    width: 218px;
+    margin-top: -6rem;
+    margin-left: 18rem;
+    margin-bottom: 6rem;
+    border: 2px solid #a7a0a0;
+}
+
+#skills-resume3 {
+    margin-left: 3rem;
+}
+
+.freelance1 {
+    background-image: url(./img/freelance1.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    border: 3px solid #a7a0a0;
+    height: 348px;
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.freelance2 {
+    background-image: url(./img/freelance2.png);
+    background-size: cover;
+    border-radius: 3px;
+    border: 3px solid #a7a0a0;
+    height: 348px;
+    width: 250px;
+    margin-top: -22rem;
+    margin-left: 24rem;
+}
+
+.freelance3 {
+    background-image: url(./img/freelance3.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    border: 3px solid #a7a0a0;
+    height: 348px;
+    width: 250px;
+    margin-top: 1rem;
+    margin-left: 14rem;
+    margin-bottom: 5rem;
+}
+
+
+
                  /* EDUCAÇÃO */
 #minhaDiv3 {
     z-index: 20;           
@@ -290,7 +353,7 @@ nav a {
     width: 890px;
     height: 800px;
     transform: translate(34rem, -385px);
-    background-color: #f0f0f0;
+    background-color: #e6e2e2;
     padding: 20px;
     overflow-y: scroll 
 }
@@ -346,7 +409,7 @@ h3 {
     width: 890px;
     height: 800px;
     transform: translate(34rem, -385px);
-    background-color: #f0f0f0;
+    background-color: #e6e2e2;
     padding: 20px;
     overflow-y: scroll 
 }
@@ -400,8 +463,8 @@ footer{
     border-top: 3px solid #3b3939da;
     text-align: center;
     padding: 80px;
-    margin-top: 60rem;
+    margin-top: 49rem;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 89,7%;
 } 
